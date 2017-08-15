@@ -6,7 +6,7 @@ Unit 4 : Data Modeling | Lesson 3 : Decision Trees & Random Forests
 | Topic | Description | Link |
 | --- | --- | --- |
 | Lesson | Decision Trees | [Here](./decision-trees.ipynb) |
-|        | Ensembles & Random Forests | [Here](./ensembles-random-forests.ipynb)
+|        | **Ensembles & Random Forests** | [Here](./ensembles-random-forests.ipynb)
 | Solution  | None needed (by-hand group exercises and codealongs) | N/A |
 | Datasets | MLB player data | (hitters.csv)[./datasets/hitters.csv]
 | Datasets | Titanic survivors | (titanic.csv)[./datasets/titanic.csv]
@@ -15,6 +15,10 @@ Unit 4 : Data Modeling | Lesson 3 : Decision Trees & Random Forests
 | Source Materials | Original files used to create this lesson | [Here](./assets/slides/) |
 | Extra Materials | Examples of Logistic Regression Implementation | [Here](./assets/examples/) |
 
+**Important:** The "Ensembles & Random Forests" lesson is about 100 minutes of material. It is more important to data science and less detail-oriented. If you only have a fraction of a class period (e.g. for projects), it is recommended to only do this lesson.
+
+Students must understand what a decision tree is first, so you should provide some explanation (perhaps drawing from the first lesson). However, decision trees are typically readily understood by students. (How a computer constructs them is typically not as easily understood, which is the subject of the first lesson.)
+
 The MLB player data and Titanic datasets were chosen because they are small enough to make very interpretable decision trees without much tuning. The vehicle data is very small, chosen as an easy example students could do by hand. It also provides a pre-split test set.
 
 ---
@@ -22,56 +26,59 @@ The MLB player data and Titanic datasets were chosen because they are small enou
 ## Learning Objectives (Decision Trees)
 *After this lesson, students will be able to:*
 
-- Explain how a decision tree is created
-- Build a decision tree model in scikit-learn
-- Tune a decision tree model and explain how tuning impacts the model
-- Interpret a tree diagram
-- Describe the key differences between regression and classification trees
-- Decide whether a decision tree is an appropriate model for a given problem
+- Explain how a decision tree is created.
+- Build a decision tree model in scikit-learn.
+- Tune a decision tree model and explain how tuning impacts the model.
+- Interpret a tree diagram.
+- Describe the key differences between regression and classification trees.
+- Decide whether or not a decision tree is an appropriate model for a given problem.
 
 
-## Learning Objectives (Ensembles & Decision Trees)
+## Learning Objectives (Ensembles & Random Forests)
 
-- Understand how and why decision trees can be improved using bagging and random forests
-- Build random forest models for classification and regression
-- Know how to extract the most important predictors in a random forest model
+- Understand how and why decision trees can be improved using bagging and random forests.
+- Build random forest models for classification and regression.
+- Know how to extract the most important predictors in a random forest model.
 
 ---
 
 ## Lesson Outline (Decision Trees)
 
+TOTAL (170 min)
 - Introduction
-- Part 1: Regression trees
-    - Group exercise
-    - Building a regression tree by hand
-    - How does a computer build a regression tree?
-    - Demo: Choosing the ideal cutpoint for a given feature
-    - Building a regression tree in scikit-learn
-    - What happens when we grow a tree too deep?
-    - Tuning a regression tree
-    - Making predictions for the testing data
-- Part 2: Classification trees
-    - Comparing regression trees and classification trees
-    - Splitting criteria for classification trees
-    - Building a classification tree in scikit-learn
-- Summary: Comparing decision trees with other models
+- Part 1: Regression Trees (115 min)
+    - Group Exercise (20 min)
+    - Building a Regression Tree by Hand (30 min)
+    - How Does a Computer build a Regression Tree? (15 min)
+    - Demo: Choosing the Ideal Cutpoint for a Given Feature (15 min)
+    - Building a Regression Tree in scikit-learn (10 min)
+    - What Happens When We Grow a Tree Too Deep? (5 min)
+    - Tuning a Regression Tree (15 min)
+    - Making Predictions for the Testing Data (5 min)
+- Part 2: Classification Trees (45 min)
+    - Comparing Regression Trees and Classification Trees (10 min)
+    - Splitting Criteria for Classification Trees (20 min)
+    - Building a Classification Tree in scikit-learn (15 min)
+- Summary: Comparing Decision Trees With Other Models (10 min)
 
 ---
 
 ## Lesson Outline (Ensembles & Decision Trees)
 
+TOTAL (100 min - to leave room for projects if needed)
 - Introduction
-- Part 1: Manual Ensembling
-- Part 2: Bagging
-    - Manually implementing bagged decision trees
-    - Bagged decision trees in scikit-learn
-    - Estimating out-of-sample error
-- Part 3: Random Forests
-- Part 4: Building and tuning decision trees and Random Forests
-    - OPTIONAL: Predicting salary with a decision tree
-    - Predicting salary with a Random Forest
-    - Comparing Random Forests with decision trees
-- OPTIONAL: Tuning Individual Parameters
+- Part 1: Manual Ensembling (15 min)
+- Part 2: Bagging (30 min)
+    - Manually Implementing Bagged Decision Trees (15 min)
+    - Bagged Decision Trees in scikit-learn (5 min)
+    - Estimating Out-of-Sample Error (10 min)
+- Part 3: Random Forests (10 min)
+- Part 4: Building and Tuning Decision Trees and Random Forests (30 min)
+    - Optional: Predicting Salary With a Decision Tree (15 min)
+    - Predicting Salary With a Random Forest (10 min)
+    - Comparing Random Forests With Decision Trees (5 min)
+- Optional: Tuning Individual Parameters (15 min)
+- Summary
 
 ---
 
