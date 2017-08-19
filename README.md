@@ -6,12 +6,12 @@ Unit 4 : Data Modeling | Lesson 3 : Decision Trees & Random Forests
 | Topic | Description | Link |
 | --- | --- | --- |
 | Lesson | Decision Trees | [Here](./decision-trees.ipynb) |
-|        | **Ensembles & Random Forests** | [Here](./ensembles-random-forests.ipynb)
+|        | Ensembles & Random Forests | [Here](./ensembles-random-forests.ipynb)
 | Solution  | None needed (by-hand group exercises and codealongs) | N/A |
-| Datasets | MLB player data | (hitters.csv)[./datasets/hitters.csv]
-| Datasets | Titanic survivors | (titanic.csv)[./datasets/titanic.csv]
-| Datasets | Vehicles (test) | (vehicles_test.csv)[./datasets/vehicles_test.csv]
-| Datasets | Vehicles (train) | (vehicles_train.csv)[./datasets/vehicles_train.csv]
+| Datasets | MLB player data | [hitters.csv](./datasets/hitters.csv)
+| | Titanic survivors | [titanic.csv](./datasets/titanic.csv)
+| | Vehicles (test) | [vehicles_test.csv](./datasets/vehicles_test.csv)
+|  | Vehicles (train) | [vehicles_train.csv](./datasets/vehicles_train.csv)
 | Source Materials | Original files used to create this lesson | [Here](./assets/slides/) |
 | Extra Materials | Examples of Logistic Regression Implementation | [Here](./assets/examples/) |
 
