@@ -12,6 +12,8 @@ _Editor: Sam Stack_
 
 - Fixed mentions of Logistic Regression in Readme
 
+- removed redundent practice file and contents up.  
+
 ### v0.0
 
 _Author: Joseph Nelson (Lesson: Decision Trees, Ensembles and RF), Kiefer Katovich(Lab: RF from scratch)_

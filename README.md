@@ -12,6 +12,7 @@ Unit 4 : Data Modeling | Lesson 3 : Decision Trees & Random Forests
 | | Titanic survivors | [titanic.csv](./data/titanic.csv)
 | | Vehicles (test) | [vehicles_test.csv](./data/vehicles_test.csv)
 |  | Vehicles (train) | [vehicles_train.csv](./data/vehicles_train.csv)
+| Practice | Random Forest from Scratch | [Here](./practice)
 | Source Materials | Original files used to create this lesson | [Here](./slides/) |
 
 
