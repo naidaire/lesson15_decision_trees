@@ -1,3 +1,12 @@
+### v0.2 | 09.05.17
+
+_Editor: Sam Stack_
+
+- Removed redundent files (PDF of slides, extra dataset, gitignore.)
+
+- Added Practice readme
+
+
 ### v0.1 | 09.04.17
 
 _Editor: Sam Stack_
