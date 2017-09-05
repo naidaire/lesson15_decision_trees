@@ -1,4 +1,4 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Logistic-Regression
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Decision Trees, Random Forests and Ensembling
 Unit 4 : Data Modeling | Lesson 3 : Decision Trees & Random Forests
 
 ## Materials We Provide
@@ -8,12 +8,13 @@ Unit 4 : Data Modeling | Lesson 3 : Decision Trees & Random Forests
 | Lesson | Decision Trees | [Here](./decision-trees.ipynb) |
 |        | Ensembles & Random Forests | [Here](./ensembles-random-forests.ipynb)
 | Solution  | None needed (by-hand group exercises and codealongs) | N/A |
-| Datasets | MLB player data | [hitters.csv](./datasets/hitters.csv)
-| | Titanic survivors | [titanic.csv](./datasets/titanic.csv)
-| | Vehicles (test) | [vehicles_test.csv](./datasets/vehicles_test.csv)
-|  | Vehicles (train) | [vehicles_train.csv](./datasets/vehicles_train.csv)
-| Source Materials | Original files used to create this lesson | [Here](./assets/slides/) |
-| Extra Materials | Examples of Logistic Regression Implementation | [Here](./assets/examples/) |
+| Datasets | MLB player data | [hitters.csv](./datas/hitters.csv)
+| | Titanic survivors | [titanic.csv](./data/titanic.csv)
+| | Vehicles (test) | [vehicles_test.csv](./data/vehicles_test.csv)
+|  | Vehicles (train) | [vehicles_train.csv](./data/vehicles_train.csv)
+| Practice | Random Forest from Scratch | [Here](./practice)
+| Source Materials | Original files used to create this lesson | [Here](./slides/) |
+
 
 **Important:** The "Ensembles & Random Forests" lesson is about 100 minutes of material. It is more important to data science and less detail-oriented. If you only have a fraction of a class period (e.g. for projects), it is recommended to only do this lesson.
 
