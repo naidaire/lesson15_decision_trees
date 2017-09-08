@@ -1,3 +1,11 @@
+### v0.2 | 09.08.17
+
+_Editor: Sam Stack_
+
+- Added practice folder links
+
+- Made recommended changes by instructor Alex E.
+
 ### v0.2 | 09.05.17
 
 _Editor: Sam Stack_
