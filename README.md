@@ -16,7 +16,7 @@
 | Practice | Random Forest from Scratch | [Here](./practice)
 | Source Materials | Original files used to create this lesson | [Here](./slides/) |
 
-> The MLB player data and Titanic datasets were chosen because they are small enough to make very interpretable decision trees without much tuning. The vehicle data is very small, chosen as an easy example students could do by hand. It also provides a pre-split test set.
+> The MLB player data and Titanic datasets were chosen for this lesson because they are small enough to make very interpretable decision trees without much tuning. The vehicle data is very small, chosen as an easy example students could do by hand. It also provides a pre-split test set.
 
 ---
 
@@ -48,7 +48,7 @@ After this lesson, students will be able to:
 
 ## Student Requirements
 Before this lesson, students should already be able to:
-- Know how to build and evaluate (classification) models in sklearn
+- Build and evaluate classification models in sklearn
 - Explain how and when to apply different resampling methods
 - Define the concepts of cross-validation and overfitting
 
@@ -56,7 +56,7 @@ Before this lesson, students should already be able to:
 
 ## Lesson Outline
 
-> **Important:** Part Two lesson is about 100 minutes of material and is lesss detail-oriented. If you only have a fraction of a class period, we recommended that you only focus entirely on part one.
+> **Important:** Part Two is about 100 minutes of material and is less detail-oriented. If you only have a fraction of a class period, we recommended that you only focus entirely on part one.
 
 
 ### Lesson Outline (Part One: Decision Trees)
@@ -101,12 +101,12 @@ Before this lesson, students should already be able to:
 
 ## Additional Resources
 
-*If you're interested in reading more about decision trees and random forests, check these out:*
+*If you're interested in reading more about decision trees and random forests, check out these resources:*
 - [Induction of Decision Trees](http://hunch.net/~coms-4771/quinlan.pdf)
 - [Top 10 Algorithms in Data Mining](http://www.cs.uvm.edu/~icdm/algorithms/10Algorithms-08.pdf)
 
 
-*Also, I highly recommend checking out the following books:*
+*If you're looking for additional references, we recommend the following books:*
 - __CHAPTER 8__ - [An Introduction to Statistical Learning](http://www-bcf.usc.edu/~gareth/ISL/) - This book provides a fantastic introduction to machine learning models and the statistics behind them. The visuals and explanations are really easy to understand. PDF available to download on the website.
 - __CHAPTER 9__ - [Elements of Statistical Learning](http://statweb.stanford.edu/~tibs/ElemStatLearn/) - This book is by most of the same authors as the previous book, but goes into more detail. PDF available to download on the website.
 - __CHAPTER 8__ - [Applied Predictive Modeling](https://www.amazon.com/Applied-Predictive-Modeling-Max-Kuhn/dp/1461468485) - While this book features R code, the discussion of different predictive models and sampling methodologies are hard to beat.  
