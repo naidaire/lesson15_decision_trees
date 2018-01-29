@@ -1,5 +1,6 @@
-# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Decision Trees, Random Forests and Ensembling
-Unit 4 : Data Modeling | Lesson 3 : Decision Trees & Random Forests
+# ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Decision Trees, Random Forests
+
+> Unit 4: Required
 
 ## Materials We Provide
 
@@ -15,18 +16,13 @@ Unit 4 : Data Modeling | Lesson 3 : Decision Trees & Random Forests
 | Practice | Random Forest from Scratch | [Here](./practice)
 | Source Materials | Original files used to create this lesson | [Here](./slides/) |
 
-
-**Important:** The "Ensembles & Random Forests" lesson is about 100 minutes of material. It is more important to data science and less detail-oriented. If you only have a fraction of a class period (e.g. for projects), it is recommended to only do this lesson.
-
-Students must understand what a decision tree is first, so you should provide some explanation (perhaps drawing from the first lesson). However, decision trees are typically readily understood by students. (How a computer constructs them is typically not as easily understood, which is the subject of the first lesson.)
-
-The MLB player data and Titanic datasets were chosen because they are small enough to make very interpretable decision trees without much tuning. The vehicle data is very small, chosen as an easy example students could do by hand. It also provides a pre-split test set.
+> The MLB player data and Titanic datasets were chosen because they are small enough to make very interpretable decision trees without much tuning. The vehicle data is very small, chosen as an easy example students could do by hand. It also provides a pre-split test set.
 
 ---
 
 ## Learning Objectives (Decision Trees)
-*After this lesson, students will be able to:*
 
+After this lesson, students will be able to:
 - Explain how a decision tree is created.
 - Build a decision tree model in scikit-learn.
 - Tune a decision tree model and explain how tuning impacts the model.
@@ -37,15 +33,31 @@ The MLB player data and Titanic datasets were chosen because they are small enou
 
 ## Learning Objectives (Ensembles & Random Forests)
 
-- Understand how and why decision trees can be improved using bagging and random forests.
+After this lesson, students will be able to:
+- Define how and why decision trees can be improved using bagging and random forests.
 - Build random forest models for classification and regression.
-- Know how to extract the most important predictors in a random forest model.
+- Explain how to extract the most important predictors in a random forest model.
 
 ---
 
-## Lesson Outline (Decision Trees)
+## Student Requirements
+Before this lesson(s), students should already be able to:
+- Know how to build and evaluate (classification) models in sklearn
+- Explain how and when to apply different resampling methods
+- Define the concepts of cross-validation and overfitting
 
-TOTAL (170 min)
+---
+
+## Lesson Outline
+
+**Important:** The "Ensembles & Random Forests" lesson is about 100 minutes of material. It is more important to data science and less detail-oriented. If you only have a fraction of a class period (e.g. for projects), it is recommended to only do this lesson.
+
+Students must understand what a decision tree is first, so you should provide some explanation (perhaps drawing from the first lesson). However, decision trees are typically readily understood by students. (How a computer constructs them is typically not as easily understood, which is the subject of the first lesson.)
+
+
+### Lesson Outline (Decision Trees)
+
+> TOTAL (170 min)
 - Introduction
 - Part 1: Regression Trees (115 min)
     - Group Exercise (20 min)
@@ -62,11 +74,10 @@ TOTAL (170 min)
     - Building a Classification Tree in scikit-learn (15 min)
 - Summary: Comparing Decision Trees With Other Models (10 min)
 
----
 
-## Lesson Outline (Ensembles & Decision Trees)
+### Lesson Outline (Ensembles & Decision Trees)
 
-TOTAL (100 min - to leave room for projects if needed)
+> TOTAL (100 min - to leave room for projects if needed)
 - Introduction
 - Part 1: Manual Ensembling (15 min)
 - Part 2: Bagging (30 min)
@@ -80,16 +91,6 @@ TOTAL (100 min - to leave room for projects if needed)
     - Comparing Random Forests With Decision Trees (5 min)
 - Optional: Tuning Individual Parameters (15 min)
 - Summary
-
----
-
-
-## Student Requirements
-Before this lesson(s), students should already be able to:
-
-- Know how to build and evaluate (classification) models in sklearn
-- Knowledge of resampling methods
-- Understand the concepts of cross-validation and overfitting
 
 
 ----
