@@ -22,7 +22,7 @@
 
 ## Learning Objectives 
 
-There lesson has two parts. Decision trees are introduced in part one, while random forests and other ensemble methods are elaborated on in part two. If you have limited class time, focus specifically on part one.
+This lesson has two parts. Decision trees are introduced in part one, while random forests and other ensemble methods are elaborated on in part two. If you have limited class time, focus specifically on part one.
 
 
 ### Part One: Decision Trees
