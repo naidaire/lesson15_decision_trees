@@ -20,7 +20,12 @@
 
 ---
 
-## Learning Objectives (Decision Trees)
+## Learning Objectives 
+
+There lesson has two parts. Decision trees are introduced in part one, while random forests and other ensemble methods are elaborated on in part two. If you have limited class time, focus specifically on part one.
+
+
+### Part One: Decision Trees
 
 After this lesson, students will be able to:
 - Explain how a decision tree is created.
@@ -31,7 +36,8 @@ After this lesson, students will be able to:
 - Decide whether or not a decision tree is an appropriate model for a given problem.
 
 
-## Learning Objectives (Ensembles & Random Forests)
+
+### Part Two: Ensembles & Random Forests
 
 After this lesson, students will be able to:
 - Define how and why decision trees can be improved using bagging and random forests.
@@ -41,7 +47,7 @@ After this lesson, students will be able to:
 ---
 
 ## Student Requirements
-Before this lesson(s), students should already be able to:
+Before this lesson, students should already be able to:
 - Know how to build and evaluate (classification) models in sklearn
 - Explain how and when to apply different resampling methods
 - Define the concepts of cross-validation and overfitting
@@ -50,12 +56,10 @@ Before this lesson(s), students should already be able to:
 
 ## Lesson Outline
 
-**Important:** The "Ensembles & Random Forests" lesson is about 100 minutes of material. It is more important to data science and less detail-oriented. If you only have a fraction of a class period (e.g. for projects), it is recommended to only do this lesson.
-
-Students must understand what a decision tree is first, so you should provide some explanation (perhaps drawing from the first lesson). However, decision trees are typically readily understood by students. (How a computer constructs them is typically not as easily understood, which is the subject of the first lesson.)
+> **Important:** Part Two lesson is about 100 minutes of material and is lesss detail-oriented. If you only have a fraction of a class period, we recommended that you only focus entirely on part one.
 
 
-### Lesson Outline (Decision Trees)
+### Lesson Outline (Part One: Decision Trees)
 
 > TOTAL (170 min)
 - Introduction
@@ -75,7 +79,7 @@ Students must understand what a decision tree is first, so you should provide so
 - Summary: Comparing Decision Trees With Other Models (10 min)
 
 
-### Lesson Outline (Ensembles & Decision Trees)
+### Lesson Outline (Part Two: Ensembles & Decision Trees)
 
 > TOTAL (100 min - to leave room for projects if needed)
 - Introduction
